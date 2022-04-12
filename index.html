@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tetris</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <h1>TETRIS</h1>
+        <div id="gameStats">
+            <button id="start">START</button><br>
+            <p>HIGH SCORE <br><span id="highscore">0</span></p>
+            <p>SCORE <br><span id="score">0</span></p>
+            <p>LEVEL <br><span id="level">1</span></p>
+            <div id="controls">
+                <p>CONTROLS <br>
+                   <img src="./media/a.png" width="15%">  Move Left<br>
+                   <img src="./media/d.png" width="15%">  Move Right<br>
+                   <img src="./media/s.png" width="15%">  Move Down<br>
+                   <img src="./media/w.png" width="15%">  Rotate<br>
+                   <img src="./media/p.png" width="15%"> Pause
+                </p>
+            </div>
+        </div>
+        <div id="canvas">
+            <canvas id="tetris" width="425" height="500"></canvas>
+        </div>
+        <script src="./tetromino.js" ></script>
+        <script src="./app.js"></script>
+    </body>
+</html>

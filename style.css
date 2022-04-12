@@ -1,0 +1,49 @@
+* { background-color: rgb(29, 29, 29);}
+
+@font-face {
+    font-family: tetris-font;
+    src: url(./media/tetris-font.ttf);
+    
+}
+@font-face {
+    font-family: arcade-font;
+    src: url(./media/arcade-font.ttf);
+}
+@font-face {
+    font-family: retro-font;
+    src: url(./media/retro-font.ttf);
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'tetris-font';
+    color: rgb(177, 6, 0);
+    margin: 5px;
+    margin-left: 40%;
+}
+#canvas{
+    display: inline-flex;
+}
+#start{
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    font-family: 'arcade-font';
+    color: white;
+    background-color:rgba(4, 136, 70, 0.74);
+}
+
+#gameStats {
+    width: 210px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'arcade-font';
+    color:wheat;
+    display: inline-block;
+    margin-left: 25%;
+    vertical-align:top;
+}
+#controls {
+    text-align:left;
+}
+
